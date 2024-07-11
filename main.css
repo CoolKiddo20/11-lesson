@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: #313F2C;
+}
+
+.form{
+    background-color: #066706;
+    max-width: 600px;
+    margin: 50px auto;
+    width: 100%;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 400px;
+    height: 40px;
+    background-color: #ffff;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ffff;
+}
+
+.btn{
+    margin-left: 40px;
+    width: 95px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+}
+
+.btn:hover{
+    border: #ffff 1px solid ;
+    background-color: #066706;
+    color: #ffff;
+}
+
+.list{
+    max-width: 600px;
+    margin: 0 auto;
+    list-style: none;
+}
+.item{
+    background-color: #066706;
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.delete{
+    width: 100px;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    margin-right: 20px;
+    background-color: #d43434;
+    color: white;
+    font-weight: 900;
+}
+.edit{
+    width: 100px;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    background-color: #ffaa00;
+    color: white;
+    font-weight: 900;
+}
